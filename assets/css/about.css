@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    width:100%;
+    float:left;
+    border-bottom:7px solid #e4e4e4!important;
+ 
+}
+
+.img-fluid{
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+.nav-item{
+    
+
+}
+.nav-link{
+    color: #266d89!important;
+    margin: 30px 25px;
+}
+
+.about{
+    width: 100%;
+    float: left;
+}
+.about-contain{
+    padding:25px 0px;
+    
+}
+.about-contain h2{
+    font-weight: bold;
+    margin: 50px 0px;
+
+}
+.about-contain p{ 
+    font-weight: 400;
+    margin-bottom:30px;
+}
+.about-img img{
+    width: 90%;
+    margin-top:90px;
+}
+.about-img p{
+    font-weight: 400;
+    margin: 75px 0px;
+}
+
+footer{
+    width: 100%;
+    float: left;
+    background-color: #ef4035;
+    text-align: center;
+}
+footer p{
+    color: white;
+    margin: 40px 0px;
+    
+}
+@media (max-width:600px)
+{
+    .nav-link{
+        margin: 0px;
+    }
+    .about-contain h2{
+        text-align: center;
+    }
+
+
+}
+@media (max-width:768px) and (min-width:600.1px)
+{
+    .nav-link{
+        margin: 0px;
+    }
+    .about-contain h2{
+        text-align: center;
+    }
+    
+
+}
+@media (max-width:992px) and (min-width:768.1px)
+    {
+        .nav-link{
+            margin: 0px;
+        }
+
+    }   
